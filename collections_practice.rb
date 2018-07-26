@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require 'pry'
 
 def begins_with_r(arr)
@@ -75,3 +76,44 @@ def organize_schools(schools)
     end
     final_hash
 end
+=======
+def begins_with_r(arr)
+  arr.all? {|word| word[0].downcase == "r"}
+end
+
+def contain_a(arr)
+  new = []
+  arr.each do |word| 
+    word.each_char do |ch|
+      if ch == "a" 
+        new << word
+      end
+    end
+  end
+  new
+end
+
+def first_wa
+  
+end 
+
+def remove_non_strings
+  
+end
+
+def count_elements
+  
+end
+
+def merge_data
+  
+end
+
+def find_cool
+  
+end
+
+def organize_schools
+  
+end
+>>>>>>> e9c826a9e024ddb07fc2f4459bccba6db055f109
